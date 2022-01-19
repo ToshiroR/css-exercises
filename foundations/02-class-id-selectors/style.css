@@ -1,0 +1,19 @@
+p {
+  background-color: rgb(255, 112, 136);
+  font-family: Verdana,sans-serif;
+
+}
+#blue-text {
+  color: blue;
+  font-size: 36px;
+
+
+}
+.font {
+  font-size: 36px;
+}
+.green-text {
+  background-color: rgb(160, 255, 160);
+  font-size: 24px;
+  font-weight: bold;
+}
