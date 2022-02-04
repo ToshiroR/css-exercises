@@ -6,6 +6,11 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  margin: auto
+  
+  ;
+  
+
 }
 
 .header {
@@ -20,6 +25,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
+  align-self:center;
 }
 
 .logo {
@@ -27,6 +33,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 5px;
+  
 }
 
 button {
@@ -35,6 +43,9 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  align-self: center;
+  margin: 12px;
+  
 }
 
 a {
@@ -45,4 +56,25 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  align-self: center;
+  justify-self: flex-end;
+  gap: 16px;
+  margin-right: auto;
+  margin-left: -20px;
+
 }
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+
+
+}
+
+
+
+  
+  
